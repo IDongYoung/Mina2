@@ -4,5 +4,3 @@ mina.MinaTimeServer.class mina.TimeHandler.class:./mina/MinaTimeServer.java ./mi
 	@javac -classpath .:$(hello) ./mina/MinaTimeServer.java ./mina/TimeHandler.java
 S: mina.MinaTimeServer.class mina.TimeHandler.class
 	@java -cp .:$(hello) mina.MinaTimeServer
-
-123
